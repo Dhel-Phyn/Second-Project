@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root{
+  --color-primary: #1C0A00;
+  --secondary-color:#361500;
+  --color-tertiary:#603601;
+  --color-light: #CC9544;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background: url("https://images.unsplash.com/photo-1481487196290-c152efe083f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTF8MTczMjI5fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60")no-repeat center center/cover;
+
+
+width: 100 vw;
+height: 100vh;
+overflow: hidden;
+color: var(--color-light);
+}
+
+nav{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.container{
+  width: 86%;
+  margin: 0 auto;
+}
+
+nav .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 1.5rem;
+}
+
+nav .container img{
+  width: 4.2rem;
+}
+
+nav .container ul{
+  display: flex;
+  gap: 4rem;
+}
+
+nav .container ul li{
+  list-style: none;
+}
+
+a{
+  color: #1C0A00;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+section{
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100%;
+  position: relative;
+  top: 3rem;
+  left: 0;
+  text-align: center;
+  color: #603601;
+}
+
+section .container h1{
+  font-size: 3rem;
+  font-family: 'Lobster', cursive;
+  color: #1C0A00;
+}
+
+section .container h3{
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  font-family: 'Lobster', cursive;
+}
